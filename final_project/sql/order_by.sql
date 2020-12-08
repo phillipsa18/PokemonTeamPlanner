@@ -1,0 +1,2 @@
+SELECT * FROM Pokemon
+ORDER BY Stat=:Stat DESC
