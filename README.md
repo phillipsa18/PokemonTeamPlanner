@@ -1,6 +1,8 @@
-# PokemonTeamPlanner
-A site that allows you to view stats of Pokemon and the types they resist or are weak to. I choose Pokemon as I grew up playing the games and I realized there is a lot of numbers and math associated with it, which would translate well into building a site. 
+# CSC 301 Final Project
+This is code for a site allowing you to view stats of Generation I Pokemon and the types they resist or are weak to. I chose Pokemon as I grew up playing the games and I realized there are many numerical aspects such as stats and catch rates.
 
-I plan to work on this more as time goes on. Adding the functionality for the team builder, adding Pokemon from the other generations and a recommendation system for your team. I would also like to enhance the design a bit, I'm not too good with design, but I hope to become better.
+Initially, I had plans to create user login functionality to save team compositions. However, due to the time constraints present when I was initally assigned this project, I had to scrap the idea. 
 
-All rights for Pokemon and related properties belong to Nintendo, Game Freak and Creatures Inc. This is simply a project to apply my learning of PHP and Web Development.
+I plan to revisit this project one day as my knowledge and experience grows. There are many aspects of the game I have left untouched that I believe can be incorporated. I also want to enhance the design of the site as I placed more emphasis on the backend.
+
+**All rights for Pokemon and related properties belong to Nintendo, Game Freak and Creatures Inc. This is simply a project to apply my learning of PHP and Web Development.**
