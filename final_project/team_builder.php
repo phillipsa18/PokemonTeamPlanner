@@ -14,35 +14,27 @@
 	<title>Team Builder</title>
 	
 	<style>
-	html {
+	html 
+	{
 		height: 100%;
-        background-color: light-blue;
-        background-image: linear-gradient(to top left, #FFFFFF, #99CCFF, #FF0000);
+        	background-color: light-blue;
+        	background-image: linear-gradient(to top left, #FFFFFF, #99CCFF, #FF0000);
 	}
-	body {
+		
+	body 
+	{
 		box-sizing: border-box;
 		font-family: arial;
 	}
-	.page {
+		
+	.page 
+	{
 		max-width: 800px;
 		margin: 10px auto;
 		background-color: white;
 		padding: 20px 30px;
 	}
 	</style>
-	
-	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	
-	<script>
-		// If only it was this easy
-		$(function() {
-			var list = <!--?php echo $mons ?-->
-		$( "#pkmn" ).autocomplete({
-			source: availableTags
-			});
-		} );
-	</script>
 </head>
 <body>
 	<div class="page">
