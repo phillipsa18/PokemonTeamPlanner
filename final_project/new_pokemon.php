@@ -14,7 +14,8 @@
 	}
 	
 	
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+if ($_SERVER['REQUEST_METHOD'] == 'POST') 
+{
 	$nat_dex = $_POST['nat_dex'];
 	$name = $_POST['p_name'];
 	$type1 = $_POST['type1'];
@@ -26,7 +27,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$SATK = $_POST['SATK'];
 	$SDEF = $_POST['SDEF'];
 	
-	if($action == 'add') {
+	if($action == 'add') 
+	{
 		$sql = file_get_contents('sql/insertPokemon.sql');
 		$params = array(
 			'DexNum' => $nat_dex,
@@ -44,7 +46,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$statement->execute($params);
 	}
 	
-	elseif ($action == 'edit') {
+	elseif ($action == 'edit') 
+	{
 		$sql = file_get_contents('sql/updatePokemon.sql');
 		$params = array(
 			'DexNum' => $nat_dex,
