@@ -9,7 +9,8 @@ session_start();
 
 $current_url = basename($_SERVER['REQUEST_URI']);
 
-function autoloader($class) {
+function autoloader($class) 
+{
 	include 'classes/class.' . $class . '.php';
 }
 
@@ -19,6 +20,7 @@ if (!isset($_SESSION['username']) AND $current_url != "login.php")
 {
 	header("location: login.php");
 }
+
 else if(isset($_SESSION['username']))
 {
 	$sql = file_get_contents('sql/attemptLogin.sql');
