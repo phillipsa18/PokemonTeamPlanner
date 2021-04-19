@@ -15,35 +15,42 @@
 	<title>PokeDex</title>
 	
 	<style>
-	html {
-        background-color: light-blue;
-        background-image: linear-gradient(to top left, #FFFFFF, #99CCFF, #FF0000);
+	html 
+	{
+        	background-color: light-blue;
+        	background-image: linear-gradient(to top left, #FFFFFF, #99CCFF, #FF0000);
 	}
-	body {
+		
+	body 
+	{
 		box-sizing: border-box;
 		font-family: arial;
 	}
-	.page {
+		
+	.page 
+	{
 		max-width: 800px;
 		margin: 10px auto;
 		background-color: white;
 		padding: 20px 30px;
 	}
 	
-	table {
+	table 
+	{
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
 	
-    td {
-        text-align: center;
-        vertical-align: middle;
+    	td 
+	{
+        	text-align: center;
+       		vertical-align: middle;
 	}
 	
-	a {
+	a 
+	{
 		margin-top: 10px;
 	}
-	
 	</style>
 
 </head>
@@ -98,7 +105,7 @@
 			<p><?php echo $weakness; ?></p>
 		<?php endforeach; ?>
 		<br>
-		<!-- Unfortunately I couldn't quite get secondary typing working -->
+		<!-- Weaknesses/Resistances with secondary typing needs more testing -->
 		<!--?php if(!empty($p->get('type2'))): ?-->
 			<!--?php $weaknesses2 = $p->get_second_weaknesses($database); ?-->
 			<!--?php foreach($weaknesses2 as $weakness2) : ?-->
