@@ -78,11 +78,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         	background-color: light-blue;
         	background-image: linear-gradient(to top left, #FFFFFF, #99CCFF, #FF0000);
 	}
+		
 	body 
 	{
 		box-sizing: border-box;
 		font-family: arial;
 	}
+		
 	.page 
 	{
 		max-width: 800px;
