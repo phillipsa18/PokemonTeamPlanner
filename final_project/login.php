@@ -4,8 +4,10 @@ include('config.php');
 
 include('functions.php');
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-	if(isset($_POST['create_user'])) {
+if ($_SERVER['REQUEST_METHOD'] == 'POST') 
+{
+	if(isset($_POST['create_user'])) 
+	{
 		$username = $_POST['create_user'];
 		
 		$sql = file_get_contents('sql/insert_users.sql');
