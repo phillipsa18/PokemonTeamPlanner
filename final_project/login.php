@@ -50,16 +50,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   	<title>Login</title>
 
 	<style>
-	html {
+	html 
+	{
 		height: 100%;
-        background-color: light-blue;
-        background-image: linear-gradient(to top left, #FFFFFF, #99CCFF, #FF0000);
+        	background-color: light-blue;
+        	background-image: linear-gradient(to top left, #FFFFFF, #99CCFF, #FF0000);
 	}
-	body {
+		
+	body 
+	{
 		box-sizing: border-box;
 		font-family: arial;
 	}
-	.page {
+		
+	.page 
+	{
 		max-width: 800px;
 		margin: 10px auto;
 		background-color: white;
